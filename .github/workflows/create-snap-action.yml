@@ -27,3 +27,4 @@ jobs:
         run: |
           sudo snap install checkbox22
           sudo snap install --dangerous --classic ${{ steps.build.outputs.snap }}
+?
